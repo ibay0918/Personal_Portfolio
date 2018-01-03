@@ -1,4 +1,4 @@
-<div *ngIf="projects">
+<div *ngIf="projects" [@slideIn]='state'>
 
   <div id="thumb-container">
     <div *ngFor="let project of projects" class="thumbs">
